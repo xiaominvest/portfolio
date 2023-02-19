@@ -1,0 +1,60 @@
+/* Page Structure */
+body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.skill_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    padding: 8px 0;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+
+.menu_item {
+    margin: 8px;
+}
+
+
+.skill {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+/* About me  */
+.about_me_container {
+    display: flex;
+}
+
+.about_me {
+    margin-right: 4px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
